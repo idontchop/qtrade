@@ -1,0 +1,8 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+printf("Content-type: text/html\n\n%s",getenv("HOST_REFERER"));
+return 1;
+}

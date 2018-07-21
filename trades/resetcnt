@@ -1,0 +1,6 @@
+cd /home/ndabu/cgi-bin/trades
+/home/ndabu/cgi-bin/trades/trades.cgi > /home/ndabu/public_html/ourtrades.html
+/home/ndabu/cgi-bin/trades/cntreset
+rm /home/ndabu/cgi-bin/outc.dat
+touch /home/ndabu/cgi-bin/outc.dat
+chmod 666 /home/ndabu/cgi-bin/outc.dat
